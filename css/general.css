@@ -3,5 +3,30 @@ h1{
 }
 
 body{
+	padding: 1rem;
+	border-radius: 20px;
+	border: 2px solid #000;
 	font-family: helvetica;
+}
+
+img{
+	width: 70%;
+}
+
+dt{
+	float: left;
+	clear: left;
+	width: 8em;
+}
+
+dd{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+/*overflow hidden is a clearfix it reminds the <dl> to wrap aroud its floated children*/
+
+dl{
+	overflow: hidden;
 }
